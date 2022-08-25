@@ -1,0 +1,278 @@
+
+.footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.footer-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px; 
+}
+.footer-wrapper-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.footer-wrapper-title {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #303030;
+	margin:0 0 4px 0;
+}
+.footer-wrapper-info {
+	font-family: 'Roboto';
+	font-size: 12px;
+	line-height: 14px;
+	color: #303030;
+
+	margin:6px 0;
+}
+.footer-wrapper-info-line {
+	text-decoration-line: underline;
+}
+.footer-wrapper-info-bold1,
+.footer-wrapper-info-bold2 {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	color: #303030;
+}
+.footer-wrapper-icons-title {
+	font-family: Roboto;
+	font-size: 14px;
+
+	color: #303030;
+}
+.footer-wrapper-column2 {
+	margin:0 70px 0 60px;
+}
+.footer-wrapper-column4 {
+	margin:6px 0 68px 134px;
+
+}
+.footer-wrapper-icons{
+	margin-bottom: 6px;
+}
+.footer-wrapper-info-bold1 {
+	margin:8px 0 6px 0;
+}
+.footer-wrapper-info-bold2 {
+	margin:6px 0 6px 0;
+}
+
+.footer-wrapper-info-subtitle:hover,
+.footer-wrapper-info:hover,
+.footer-wrapper-icons-title:hover {
+	transition: all .2s ease-in;
+	color: #00C8FF;
+}
+
+.footer-wrapper-info-subtitle:active,
+.footer-wrapper-info:active,
+.footer-wrapper-icons-title:active {
+	transition: all .1s ease-out;
+	color: #303030;
+}
+.footer-wrapper-icons-click-instagram:hover {
+	transition: all .1s ease-in;
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec66483, transparent 50%),
+	radial-gradient(circle farthest-corner at 0 140%, #fec66475, transparent 50%),
+	radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf77, transparent 50%),
+	radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf77, transparent 50%),
+	radial-gradient(ellipse farthest-corner at 100% 0, #883dc275, transparent 50%),
+	 radial-gradient(ellipse farthest-corner at 60% -20%, #883dc271, transparent 50%),
+	 radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a7a, transparent),
+	 linear-gradient(#6459ca65, #bc319071 30%, #e33f6060 50%, #f775385e 70%, #fec66d63 100%);
+	border-radius: 20px;
+}
+.footer-wrapper-icons-click-youtube:hover {
+	transition: all .2s ease-in;
+	background-color: #ff00008c ;
+	border-radius: 20px;
+}
+
+.footer-wrapper-icons-click-facebook:hover,
+.footer-wrapper-icons-click-twitter:hover,
+.footer-wrapper-icons-click-linkedin:hover {
+	transition: all .2s ease-in;
+	background-color: #00c8ff9f;
+	border-radius: 20px;
+}
+.footer-wrapper-icons-click-youtube,
+.footer-wrapper-icons-click-instagram {
+	margin:0 10px;
+}
+.footer-wrapper-icons-click:active {
+	background-color: #FFFFFF;
+}
+.footer-logo-m3 {
+	background-color: #00C8FF;
+}
+.footer-icons-bottom-desktop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #585858;
+	padding:0 24px 0 32px;
+}
+.footer-icons-text {
+	font-family: Roboto;
+	font-size: 10px;
+	line-height: 12px;
+
+	color: #FFFFFF;
+}
+.footer-icons-wrapper,
+.footer-icons-wrapper-dist,
+.footer-icons-wrapper-logo {
+	display: flex;
+	align-items: center;
+}
+.footer-icons-payment {
+	margin:0 7px 0 7px;
+}
+.footer-icons-divider {
+	width: 1px;
+	height: 24px;
+	border-right: 1px solid #C4C4C4;
+	margin:0 10px 0 7px;
+}
+.footer-icons-dist-text,
+.footer-icons-logo-text {
+	font-family: Roboto;
+	font-size: 10px;
+	line-height: 12px;
+
+	color: #FFFFFF;
+	margin: 0 8px 0 8px;
+}
+.footer-icons-dist-img,
+.footer-icons-logo-img {
+	margin: 0 8px 0 0;
+	width: 36px;
+}
+
+.footer-icons-wrapper-dist:hover {
+	height: 24px;
+	transition: all .2s ease-in-out;
+	background-color: #f71963;
+	border-radius: 4px;
+}
+.footer-icons-wrapper-logo:hover {
+	height: 24px;
+	transition: all .2s ease-in-out;
+	background: #00C8FF;
+	border-radius: 4px;
+}
+
+@media screen and (min-width: 1024px){
+	.footer-mobile {
+		display: none;
+	}
+}
+@media screen and (max-width: 1024px){
+	.footer-desktop,
+	.footer-icons-bottom-desktop {
+		display: none;
+	}
+	.footer-mobile{
+		position: relative;
+		overflow-x: hidden;
+	}
+	.footer-button-mobile-institutional {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.footer-button-icon-mobile {
+		position: relative;
+		margin:0 24px 0 0;
+		background: transparent;
+    	border: 0;
+	}
+	.footer-button-icon-mobile-add {
+		transition: all .2s;
+		transform: rotate(0deg);
+		height: 8px;
+		border-right: 2px solid #303030;
+	}
+	.footer-button-icon-mobile-no-add {
+		width: 0;
+		height: 8px;
+		transition: all .2s;
+		transform: rotate(90deg);
+		border-right: 2px solid #303030;
+	}
+	.footer-button-icon-mobile-remove {
+		position: absolute;
+		width: 8px;
+		left: 3px;
+		top: 4px;
+		border-top: 2px solid #303030;
+	}
+	.footer-button-title-mobile {
+		font-family: 'Roboto';
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+
+		color: #303030;
+		margin:24px 0 24px 26px;
+	}
+	.footer-wrapper-infos {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		margin-left: 26px;
+		transition: all .2s ease-in-out;
+	}
+	.footer-wrapper-no-infos {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		transition: all .2s ease-in-out;
+    	transform: translateX(1500px);
+	}
+	.footer-wrapper-icons {
+		margin:24px 0 32px 26px;
+	}
+	.footer-mobile-icons {
+		justify-content: center;
+		background: #585858;
+	}
+	.footer-icons-divider {
+		margin:0 8px 0 4px;
+	}
+	.footer-icons-payment {
+		margin: 0 5px 0 5px;
+	}
+	.footer-icons-wrapper {
+		justify-content: center;
+	}
+	.footer-text-mobile {
+		font-family: 'Roboto';
+		font-size: 10px;
+		color: #FFFFFF;
+
+		margin:0 0 0 16px;
+	}
+	.footer-icons-wrapper-mobile {
+		justify-content: flex-start;
+	}
+	.footer-icons-wrapper-mobile {
+		display: flex;
+		padding:24px 0 16px 0;
+		align-items: center;
+	}
+	.footer-icons-dist-text {
+		margin-left: 16px;
+	}
+}
