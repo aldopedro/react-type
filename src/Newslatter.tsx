@@ -3,7 +3,7 @@ import React from "react";
 import "./Newslatter.css";
 import { Formik,Form,Field,ErrorMessage } from "formik";
 
-import FormSchemaNewslatter from "../schema/FormSchemaNewslatter"
+import FormSchemaNewslatter from "./schema/FormSchemaNewslatter"
 
 interface IFormikValues {
     email: String,

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 import {Form, Formik, Field, ErrorMessage} from "formik"
-import FormSchema from "../schema/FormSchema";
+import FormSchema from "./schema/FormSchema";
 import './Middle.css';
 
 import ArrowRight from '../images/arrow-right-icon.png';
