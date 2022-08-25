@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches:
-      - Pedroldo
+      - pedroaldo
 
 jobs:
   deploy:
