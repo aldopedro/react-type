@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-import {Form, Formik, Field, ErrorMessage} from "formik";
+import {Form, Formik, Field, ErrorMessage} from "formik"
 import FormSchema from "../schema/FormSchema";
 import './Middle.css';
 

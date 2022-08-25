@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './Footer.css'
 
-import Facebook from "../images/facebook-icon.png"
+import Facebook from "../../public/assets/images/facebook-icon.png";
 import Instagram from "../images/instagram-icon.png";
 import Twitter from "../images/twitter-icon.png";
 import Youtube from "../images/youtube-icon.png";
